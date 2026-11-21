@@ -1,0 +1,53 @@
+{
+  "start": "crossroads",
+  "regions": [
+    {
+      "id": "crossroads",
+      "name": "The Crossroads",
+      "description": "A leaning signpost, a dead fire, and crows that watch a little too closely.",
+      "danger": 1,
+      "foes": ["giant-rat", "bandit"],
+      "exits": ["ashen-marsh", "whispering-woods", "old-mine"]
+    },
+    {
+      "id": "ashen-marsh",
+      "name": "Ashen Marsh",
+      "description": "Fog, iron, and things that breathe under the water.",
+      "danger": 1,
+      "foes": ["goblin", "skeleton", "ghoul"],
+      "exits": ["crossroads", "drowned-chapel"]
+    },
+    {
+      "id": "whispering-woods",
+      "name": "Whispering Woods",
+      "description": "The trees murmur your name. None of them should know it.",
+      "danger": 1,
+      "foes": ["wolf", "goblin", "hobgoblin"],
+      "exits": ["crossroads", "barrow-hills"]
+    },
+    {
+      "id": "old-mine",
+      "name": "The Old Mine",
+      "description": "Rotten beams, rusted picks, and a smell of something that never left.",
+      "danger": 2,
+      "foes": ["orc", "bugbear", "zombie"],
+      "exits": ["crossroads", "barrow-hills"]
+    },
+    {
+      "id": "drowned-chapel",
+      "name": "Drowned Chapel",
+      "description": "Half-sunk pews and a bell that rings with no one to pull it.",
+      "danger": 2,
+      "foes": ["ghast", "specter", "zombie"],
+      "exits": ["ashen-marsh", "barrow-hills"]
+    },
+    {
+      "id": "barrow-hills",
+      "name": "Barrow Hills",
+      "description": "Ancient graves, all open. Whatever slept here is awake now.",
+      "danger": 3,
+      "foes": ["wight", "shadow", "mummy"],
+      "exits": ["whispering-woods", "old-mine", "drowned-chapel"]
+    }
+  ]
+}
